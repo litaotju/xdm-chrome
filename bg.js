@@ -7,7 +7,7 @@
     var isXDMUp = true;
     var monitoring = true;
     var debug = false;
-    var xdmHost = "http://127.0.0.1:9614";
+    var xdmHost = "http://192.168.1.11:9614";
     var disabled = false;
     var lastIcon;
     var lastPopup;
@@ -31,7 +31,7 @@
                 file = getFileFromUrl(response.url);
             }
             sendToXDM(request, response, file, false);
-            return { redirectUrl: "http://127.0.0.1:9614/204" };
+            return { redirectUrl: "http://192.168.1.11:9614/204" };
         } else {
             checkForVideo(request, response);
         }
