@@ -7,7 +7,7 @@
   "version": "2.1",
   "icons": {
     "48": "icon.png",
-    "128": "icon-128.png"
+    "128": "icon.png"
   },
   "background": {
     "page": "background.html"
